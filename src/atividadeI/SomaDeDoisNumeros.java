@@ -5,7 +5,7 @@ class SomaDeDoisNumeros{
 	public static Scanner sc = new Scanner(System.in);
 	
 	public static void main(String args[]) {
-		//declaração de váriaveos
+		//Declaração de váriaveis
 		int num1, num2, soma;
 		
 		//Leituras
