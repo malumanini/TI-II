@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+    <meta charset="UTF-8">
+    <title>Lista de Alunos</title>
+</head>
+<body>
+    <h1>Lista de Alunos</h1>
+    <a href="form.html">Novo Aluno</a>
+    <table border="1" id="tabela-alunos">
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Ações</th>
+        </tr>
+    </table>
+
+    <script>
+    function deletarAluno(id) {
+        fetch(`/alunos/${id}/delete`, {
+            method: 'GET' 
+        })
+        .then(response => {
+            if (response.ok) {
+               window.location.reload();
+            } else {
+                alert('Erro ao excluir o aluno');
+            }
+        })
+        .catch(error => {
+            console.error('Erro:', error);
+        });
+    }
+    
+        // Puxa os alunos via API
+        fetch('/api/alunos')
+            .then(response => response.json())
+            .then(alunos => {
+                const tabela = document.getElementById('tabela-alunos');
+                alunos.forEach(a => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `<td>${a.id}</td>
+                                    <td>${a.nome}</td>
+                                    <td>${a.idade}</td>
+                                    <td>
+                                        <a href="edit.html?id=${a.id}">Editar</a>
+                                        <button onclick="deletarAluno(${a.id})">Deletar</button>
+                                    </td>`;
+                    tabela.appendChild(tr);
+                });
+            });
+    </script>
+</body>
+</html>
