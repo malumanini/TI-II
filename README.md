@@ -10,6 +10,8 @@ Cada atividade será organizada dentro da pasta `src/`.
 - `src/atividade1/` → Exercício 1: Integração Eclipse e GitHub  
 - `src/atividade2/` → Exercício 2: Integração Eclipse e PostgreSQL  
 - `src/atividade3/` → Exercício 3: Integração Spark  
+- `src/atividade4/` → Exercício 4: Computação em Nuvem e IA como Serviço
+
 
 ## 📌 Atividade 1
 **Enunciado:**  
@@ -23,6 +25,13 @@ Criar um programa em Java utilizando o ambiente Eclipse e Maven, para manipulaç
 **Enunciado:**  
 Criar um programa em Java utilizando Eclipse, Maven e PostgreSQL, implementando um back-end web com o framework Spark.  
 Deve incluir um CRUD completo (Listar, Inserir, Atualizar e Excluir) acessível via formulários HTML.
+
+## 📌 Atividade 4 — 
+**Enunciado:**  
+Esta atividade tem por objetivo explorar o uso da **computação em nuvem** e dos **serviços cognitivos** da Microsoft Azure.  
+Foram realizados três produtos conforme o enunciado.
+
+---
 
 
 
