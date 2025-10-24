@@ -8,7 +8,7 @@ import java.net.http.HttpResponse.BodyHandlers;
  * ==========================================================
  *  Projeto: Atividade 4 - Computação em Nuvem e Serviços Cognitivos
  *  Disciplina: Computação em Nuvem e Serviços Cognitivos - PUC Minas
- *  Autora: Maria Luiza
+ *  Autora: Maria Luiza Manini de Oliveira
  *  Descrição:
  *      Este programa realiza uma análise de sentimento utilizando
  *      o serviço Azure Cognitive Services (Language - Text Analytics).
