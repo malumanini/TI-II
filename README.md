@@ -10,7 +10,7 @@ Cada atividade será organizada dentro da pasta `src/`.
 - `src/atividade1/` → Exercício 1: Integração Eclipse e GitHub  
 - `src/atividade2/` → Exercício 2: Integração Eclipse e PostgreSQL  
 - `src/atividade3/` → Exercício 3: Integração Spark  
-- `src/atividade4/` → Exercício 4: Computação em Nuvem e IA como Serviço
+- `src/atividade4/` → Exercício 4: Computação em Nuvem e IA como Serviço (os prints necessários estão dentro da pasta prints em src/atividade4/prints)
 
 
 ## 📌 Atividade 1
